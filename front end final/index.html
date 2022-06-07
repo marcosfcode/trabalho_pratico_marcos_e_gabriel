@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Página M&G</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/55b13c4f18.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+</head>
+
+<body>
+      <!----------------------------------------------- NAV-BAR CONSTRUÍDA UTILIZANDO ELEMENTOS DE LINK E LISTA-------------------------------->
+  <nav class="navbar">
+    <div class="logounitins">
+      <img src="./logounitins.png" alt="">
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html" class="itemmenu">Home</a></li>
+        <li><a href="formulario.html"  class="itemmenu">Formulário</a></li>
+        <li><a href="sobrenos.html"  class="itemmenu">Sobre nós</a></li>
+        <li><a href="tecnologias.html"  class="itemmenu">Tecnologias utilizadas</a></li>
+        <li><a href="bootstrap.html"  class="itemmenu">Bootstrap</a></li>
+    </div>
+  </nav>
+
+      <!------------------------------------------------------------- FIM DA NAVBAR--------------------------------------------------------------->
+
+      <!-----------------------BARRA ANIMADA UTILIZANDO ELEMENTOS DE ANIMAÇÃO COLETADOS DA BIBLIOTECA CODEPEN.IO  -------------------------------->
+  <div class="grad-bar"></div>
+      <!-----------------------BARRA ANIMADA UTILIZANDO ELEMENTOS DE ANIMAÇÃO COLETADOS DA BIBLIOTECA CODEPEN.IO  -------------------------------->
+
+
+  <main class="main-index"> <!-- ABERTURA DA TAG MAIN -->
+
+    <!------------------- PRIMEIRA SECTION APRESENTANDO O TRABALHO E APRESENTADO O PROFESSOR DA MATÉRIA, UTILIZANDO TAGS MAIN, SECTION, DIVS E H1 AO H3 -->
+    <section class="primeirasection-index">
+      <div class="container">
+        <img class="img-flutuante" src="./Data extraction-amico.png">
+      </div>
+
+      <div class="titulo-index">
+        <h1>TRABALHO PRÁTICO HTML + CSS + JS
+        </h1>
+        <h3>Uma apresentação de Marcos e Gabriel</h3>
+        <p>Este trabalho está sendo desenvolvido
+          para a matéria de</br> Desenvolvimento Front-end do digníssimo Professor Jeferson Morais.</p>
+      </div>
+
+      <div class="professor">
+        <div class="team-boxed">
+          <div>
+            <div class="intro">
+            </div>
+            <div class="row people">
+              <div class="col-md-6 col-lg-4 item">
+                <div class="box"><img class="rounded-circle" src="./fotoprof.jpg">
+                  <h3 class="name">Jeferson Morais</h3>
+                  <p class="title">Mestrado profissional em Propriedade Intelectual e Transferência de Tecnologia para
+                    Inovação</p>
+                  <p class="description">Possui graduação em Análise e Desenvolvimento de Sistemas pela Universidade
+                    Norte do Paraná (2016) e Administração pela Universidade Brasileira de Formação (2020)
+                    Especialização em Gestão de Processos Gerenciais pela Faculdade Educacional da Lapa (2018). Mestrado
+                    Profissional em Propriedade Intelectual e Transferência de Tecnologia para Inovação - PROFNIT (2020)
+                  </p>
+                  <div class="social"><a href="https://www.facebook.com/jefersonmoraisc" target="_blank"><i
+                        class="fa fa-facebook-official"></i></a><a
+                      href="https://api.whatsapp.com/send?phone=5563992126513&text=Este%20%C3%A9%20um%20exemplo%20para%20apresenta%C3%A7%C3%A3o%20do%20trabalho%20de%20Front-End!"
+                      target="_blank"><i class="fa fa-whatsapp"></i></a><a
+                      href="https://www.instagram.com/jefersonmoraisc/" target="_blank"><i
+                        class="fa fa-instagram"></i></a></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!------------------------------------------------------------- FIM DA PRIMEIRA SECTION--------------------------------------------------------------->
+
+    <!--------------------- SEGUNDA SECTION APRESENTANDO OS DESENVOLVEDORES DO SITE, UTILIZANDO CONTAINER, LISTAS, BOTÕES, LINKS  ------------------------>
+    <section id="segundasection-index">
+      <div>
+        <h3 class="titulo-dois">
+          Conheça os desenvolvedores do site:
+        </h3>
+      </div>
+      <div class="cards">
+        <div class="card-container">
+          <img class="round" src="./perfilgabriel.png" alt="user" />
+          <h3>Gabriel Alves</h3>
+          <h6>Palmas - TO</h6>
+          <p>Acadêmico de Sistemas de Informação <br /> e Lolzeiro.</p>
+          <div class="buttons">
+            <button class="primary"><a
+                href="https://api.whatsapp.com/send?phone=5563992357633&text=Entre%20em%20contato%20com%20o%20desenvolvedor%20Gabriel."
+                target="_blank">Contato</a>
+
+            </button>
+            <button class="primary ghost">
+              <a href="./sobrenos.html" target="_blank">Mais sobre</a>
+            </button>
+          </div>
+          <div class="skills">
+            <h6>Principais habilidades:</h6>
+            <ul>
+              <li>UI / UX</li>
+              <li>Front End</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <img class="round" src="./perfilmarcos.png" alt="user" />
+          <h3>Marcos Feitoza</h3>
+          <h6>Palmas - TO</h6>
+          <p>Acadêmico de Sistemas de Informação <br /> e Designer Gráfico e Digital.</p>
+          <div class="buttons">
+            <button class="primary">
+              <a href="https://api.whatsapp.com/send?phone=5563984492913&text=Entre%20em%20contato%20com%20o%20desenvolvedor%20Marcos."
+                target="_blank">Contato</a>
+            </button>
+            <button class="primary ghost">
+              <a href="./sobrenos.html" target="_blank">Mais sobre</a>
+            </button>
+          </div>
+          <div class="skills">
+            <h6>Principais Habilidades</h6>
+            <ul>
+              <li>Illustrator</li>
+              <li>Front End</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Photoshop</li>
+              <li>InDesign</li>
+              <li>Premiere</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+    <!------------------------------------------------------------- FIM DA SEGUNDA SECTION    --------------------------------------------------------------->
+
+    <!------------- TERCEIRA SECTION APRESENTANDO UM CARROSSEL FEITO A PARTIR DO FRAMEWORK BOOTSTRAP UTILIZANDO A CLASSE CONTAINER-------------------->
+
+    <section class="terceirasection-index">
+      <div class="titulo-dois">
+        <h3>O projeto foi desenvolvido com 3 principais </br> tecnologias, sendo elas:
+        </h3>
+      </div>
+
+      <div class="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./slide-java.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./slide-html.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./slide-css.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="comentario">Todas as tecnologias e seus métodos foram passados em sala</br> de aula pelo professor com o
+        auxílio de slides e atividades práticas.</p>
+    </section>
+    <!------------------------------------------------------------- FIM DA TERCEIRA SECTION--------------------------------------------------------------->
+
+  </main> <!-- FECHAMENTO DA TAG MAIN -->
+
+
+
+  <!------------------------------------------------------------- FOOTER FEITO UTILIZANDO LINKS, INPUTS E BOTÕES--------------------------------------------------------------->
+  <footer>
+    <div class="footer">
+
+      <div>
+        <ul>
+          <li>
+            <p class="titulo-footer">Desenvolvido por Marcos Feitoza e Gabriel Alves na Disciplina de<a
+                href="https://www.unitins.br/nportal/sistemas-de-informacao-palmas" target="_blank">Front-End</a> - 2022
+            </p>
+            <a href="https://www.unitins.br/nPortal/" target="_blank">Conheça a Unitins</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/c/serfrontend/featured" target="_blank">Indicação de Canal</a>
+          </li>
+          <li>
+            <a href="https://codepen.io/trending" target="_blank">Acesse o Codepen.io</a>
+          </li>
+          <li>
+            <a href="">Voltar ao topo</a>
+          </li>
+        </ul>
+
+        <div class="newsletter">
+          <h5>Quer receber novidades diariamento sobre o mundo da tecnologia?</h5>
+          <p>Deixe seu melhor e-mail!</p>
+          <input type="text" class="caixinha"></br>
+          <input type="button" value="ENVIAR" class="botao-newsletter">
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </footer>
+  <!------------------------------------------------------------- FIM DO FOOTER--------------------------------------------------------------->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
